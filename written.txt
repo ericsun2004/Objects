@@ -1,0 +1,42 @@
+Eric Sun
+
+Objects Assignment
+
+1, Freezing an object means that the information an
+objects holds will no longer be susceptible to 
+alteration, addition, or other forms of change. In
+a frozen object, no new values may be introduced, 
+and current values can not change. 
+
+A reason to freeze an object is if an object holds 
+important information that one do not wish to change,
+but may accidentally be changed by a program. Therefore,
+as a safety precaution, the object should be frozen.
+
+2, To pass parameters into a function using object 
+destructuring, one would need to put the name of the
+keys of an object into curly brackets, and pass that
+function in. 
+
+For example: 
+
+let africanStripedPolecat = {
+	
+	name: "striped polecat",
+	location: "africa",
+	hobby: "striped poles",
+
+}
+
+function whatIs({name, location, hobby}) {
+
+	console.log(name, location, hobby);
+
+}
+
+whatIs (africanStripedPolecat);
+
+Using destructuring to access values in objects,
+one would avoid the hard labour of repetatively
+retrieving such selfsame values using individual codes.
+ 

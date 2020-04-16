@@ -1,0 +1,37 @@
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#polecat {
+	width: auto;
+}
+
+#textDiv {
+	width: auto;
+	height: 200px;
+	border: 1px solid black;
+	overflow: scroll;
+}
+
+.molDiv {
+	float: left;
+	width: 24.45vw;
+	height: 400px;
+	border: 1px solid black;
+}
+
+.molDiv:hover {
+	border: 3px solid gray;
+}
+
+#happy {
+	margin-right: -80px;
+}
+
+p {
+	margin: 20px;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 35px;
+}
